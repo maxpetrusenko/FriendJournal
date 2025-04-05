@@ -1,0 +1,1 @@
+# FriendJournal
