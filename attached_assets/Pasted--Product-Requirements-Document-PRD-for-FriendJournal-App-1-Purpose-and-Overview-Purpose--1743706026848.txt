@@ -1,0 +1,345 @@
+# Product Requirements Document (PRD) for FriendJournal App
+
+## 1. Purpose and Overview
+
+**Purpose:** FriendJournal aims to deepen and strengthen friendships by providing a structured platform for meaningful connection through thoughtful questions, shared activities, and friendship insights.
+
+**Overview:** FriendJournal offers a mobile platform where friends can discover new dimensions of each other through tiered question levels, themed categories, shared experiences, and friendship analytics. It serves friends at any stage of their relationship, from new acquaintances to lifelong companions.
+
+**Vision Statement:** To transform casual friendships into profound, lasting connections by creating intentional spaces for meaningful discovery and shared growth.
+
+## 2. Target Audience
+
+**Primary Audience:** 
+- Young adults (18-35) seeking to build quality friendships
+- Established friend groups looking to deepen their connections
+- Long-distance friends maintaining relationships across geography
+- Work colleagues transitioning to personal friendships
+- New connections (classmates, neighbors, activity partners)
+
+**Secondary Audience:** 
+- Individuals relocating to new cities seeking to build social circles
+- People in life transitions (post-graduation, career change, etc.)
+- Community builders and event organizers
+- Mental health professionals who might recommend the app
+
+**User Personas:**
+
+1. **Alex - The Relocator**
+   - Age: 26
+   - Situation: Recently moved to a new city for work
+   - Pain points: Difficulty forming deep connections beyond surface-level small talk; limited opportunities to meet like-minded people
+   - Goals: Establish 2-3 quality friendships in their new location
+
+2. **Maya & Jordan - The Childhood Friends**
+   - Age: Early 30s
+   - Situation: Friends since elementary school now living in different states
+   - Pain points: Growing apart due to distance; conversations becoming repetitive; busy schedules limiting interaction
+   - Goals: Maintain their deep connection despite geographic separation
+
+3. **The Office Crew (Sam, Taylor, Jamie)**
+   - Age: Mid 20s to mid 30s
+   - Situation: Colleagues who socialize outside work but want to move beyond work topics
+   - Pain points: Conversations often default to work discussions; uneven friendship development within the group
+   - Goals: Develop more personal, balanced relationships with shared experiences
+
+## 3. Competitive Analysis
+
+**Direct Competitors:**
+- **We're Not Really Strangers**: Card game with emotional questions (physical product with digital extension)
+- **Rabbit Hole**: Question-based app for philosophical discussions
+- **Fabriq**: Relationship maintenance app focused on regular check-ins
+
+**Unique Value Proposition:**
+- Progressive friendship-building through structured question levels
+- Multi-user capabilities for friend groups, not just pairs
+- Longitudinal tracking of friendship development
+- Categorized questions tailored to different friendship dimensions
+- Interactive experiences beyond just Q&A
+
+## 4. Features
+
+### Core Features (Must-Have)
+
+**Tiered Question System:**
+- **Level 1: Getting Started** - Light, approachable questions for new connections
+- **Level 2: Going Deeper** - More substantive questions for established friendships
+- **Level 3: Inner Circle** - Profound questions for close friends
+- **Level 4: Lifelong Friends** - Reflective and future-oriented questions for deep bonds
+- Friends must complete a certain percentage of questions at one level to unlock the next
+
+**Question Categories:**
+- **Personal History** - Background, childhood memories, formative experiences
+- **Values & Beliefs** - Core principles, worldviews, philosophical perspectives
+- **Preferences & Favorites** - Tastes in entertainment, food, activities, etc.
+- **Aspirations & Dreams** - Goals, ambitions, bucket list items
+- **Work & Purpose** - Career reflections, meaning, contribution
+- **Hypotheticals & Imagination** - Thought experiments, creative scenarios
+- **Current Life** - Day-to-day experiences, recent insights, present circumstances
+
+**Friend Connections:**
+- Add friends via email, phone number, or unique invite code
+- Create friend groups for collective experiences
+- Privacy controls for question visibility and answer sharing
+- Ability to maintain different question levels with different friends
+
+**In-app Messaging:**
+- Discussion threads attached to specific questions
+- Reaction options for quick responses to answers
+- Private direct messaging between friends
+- Group chat functionality for friend circles
+
+### Secondary Features (Should-Have)
+
+**Friendship Activities:**
+- Suggested real-world activities based on shared interests
+- Virtual experiences to complete together in-app
+- Challenges and goals to accomplish as friends
+- Documentation features to capture shared experiences
+
+**Progress Tracking:**
+- Visual representation of friendship development over time
+- Completion statistics for different question categories and levels
+- Insights into areas of alignment and complementary differences
+- Friendship milestones and anniversary reminders
+
+**Discovery Mode:**
+- "Question of the Day" featured across all friendships
+- Random question generator for spontaneous conversations
+- Themed question collections for specific occasions or moods
+- Community-sourced questions (with moderation)
+
+### Enhanced Features (Could-Have)
+
+**Friendship Insights Dashboard:**
+- Visual maps of shared interests and differences
+- Compatibility metrics across different dimensions
+- Growth trackers showing evolution of the friendship
+- Suggested areas for deeper exploration
+
+**Custom Questions:**
+- Ability for users to create personalized questions
+- Option to save favorite questions for future use
+- Collaborative question creation within friend groups
+- Question collections tailored to specific friend dynamics
+
+**Experience Planning:**
+- Calendar integration for scheduling friendship activities
+- Bucket list creator for shared experiences
+- Local event recommendations based on mutual interests
+- Memories archive for documenting completed activities
+
+**Mood & Gratitude Journal:**
+- Optional mood tracking with friend visibility options
+- Gratitude entries specifically about friends
+- Milestone celebrations and appreciation messages
+- Annual friendship reviews and reflections
+
+## 5. User Experience
+
+**Navigation:** 
+- Primary tabs for Friends, Questions, Activities, and Profile
+- Friend-specific spaces showing shared history and available questions
+- Category filters for question browsing
+- Search functionality for finding specific topics
+
+**Design:** 
+- Warm, inviting color palette promoting openness and trust
+- Playful but mature visual elements reflecting diverse friendship types
+- Illustrations representing various friendship activities and moments
+- Accessibility-focused interface elements
+
+**Engagement:** 
+- Notifications when friends answer questions or send messages
+- Weekly summaries of friendship activity
+- Gentle reminders for inactive friendships
+- Achievement system for friendship development milestones
+
+**Onboarding:**
+- Account creation with basic profile information
+- Initial preference questionnaire to personalize experience
+- Tour of core features with interactive examples
+- Immediate prompts to add first friends
+- Starter question pack for new connections
+
+**Accessibility:**
+- Screen reader compatibility
+- Adjustable text sizes and high contrast options
+- Voice input alternatives for text responses
+- Consideration for color blindness in all visual elements
+
+## 6. Technical Requirements
+
+**Platforms:** 
+- Native applications for iOS (iOS 14+) and Android (Android 8.0+)
+- Progressive web app for desktop access
+
+**Performance:** 
+- App launch time under 2 seconds
+- Response time for user interactions under 0.3 seconds
+- Efficient media handling for shared photos and videos
+- Battery optimization for background operations
+
+**Scalability:** 
+- Support for user growth up to 5 million active users
+- Efficient database architecture for complex relationship mapping
+- Cloud infrastructure with regional distribution
+
+**Reliability:** 
+- 99.9% uptime target
+- Offline mode for viewing previously loaded content
+- Data synchronization upon reconnection
+- Automated backup system for user data
+
+**Localization:** 
+- Initial launch in English
+- Framework for expanding to Spanish, French, German, Japanese, and Portuguese
+- Cultural adaptation of questions for different regions
+- Support for multiple measurement systems and date formats
+
+**Integrations:**
+- Social media platforms for optional sharing
+- Calendar applications for activity scheduling
+- Photo libraries for memory documentation
+- Contact list for friend suggestions
+
+## 7. Security and Privacy
+
+**Data Protection:**
+- End-to-end encryption for all friend communications
+- Encryption for data in transit and at rest
+- Secure authentication methods including biometric options
+- Regular security audits and penetration testing
+
+**Compliance:**
+- GDPR and CCPA compliance built into data architecture
+- Age verification mechanisms
+- Transparent privacy policies with simplified explanations
+- Regular compliance reviews as regulations evolve
+
+**Data Management:**
+- Granular privacy controls for sharing question responses
+- Option to archive or permanently delete content
+- Data portability for user-generated content
+- Clear boundaries between public and private information
+
+**Trust & Safety:**
+- Reporting mechanisms for inappropriate content
+- Moderation systems for user-generated questions
+- Anti-harassment policies and enforcement
+- Blocking and muting capabilities
+
+## 8. Business Model
+
+**Free Version:**
+- Access to Level 1 questions across all categories
+- Limited number of friend connections (up to 5)
+- Basic activity suggestions
+- Ad-supported experience
+
+**Premium Subscription (FriendJournal Plus):**
+- Full access to all question levels and categories
+- Unlimited friend connections
+- Complete activities catalog with custom creation
+- Advanced friendship insights and analytics
+- Ad-free experience
+- Pricing:
+  - Monthly: $5.99
+  - Yearly: $39.99 ($3.33/month equivalent)
+  - Group plans: $99.99/year for up to 6 friends
+
+**Enterprise/Community Version:**
+- Custom deployment for organizations (colleges, companies)
+- Branded experience options
+- Advanced analytics for community building
+- Bulk licensing with volume discounts
+
+## 9. Content Strategy
+
+**Question Development:**
+- Questions created by friendship experts, psychologists, and social scientists
+- Regular addition of new questions (minimum 20 per month)
+- Seasonal and topical question collections
+- Cultural sensitivity reviews for all content
+
+**Content Governance:**
+- Editorial review process for all questions
+- Diversity and inclusion guidelines
+- User testing for question effectiveness
+- Feedback mechanisms for question quality
+
+**Content Calendar:**
+- Weekly featured questions aligned with current events
+- Monthly theme focuses (e.g., "Adventure Month," "Reflection Season")
+- Special collections for holidays and cultural celebrations
+- Surprise content drops to maintain engagement
+
+## 10. Analytics and Feedback
+
+**Key Performance Indicators:**
+- Friend connection rate (average connections per user)
+- Question completion metrics (by level and category)
+- Response time between friends
+- Session frequency and duration
+- Premium conversion rate
+- Retention at 7, 30, 90, and 365 days
+
+**User Feedback Systems:**
+- In-app feedback collection
+- Regular user surveys
+- Beta testing program for new features
+- User advisory panel for strategic direction
+
+## 11. Development and Release Plan
+
+**Development Phases:**
+- Phase 1 (MVP): Core friend connections and Level 1 questions
+- Phase 2: Additional question levels and basic insights
+- Phase 3: Activities and experience documentation
+- Phase 4: Advanced analytics and group functionality
+
+**Release Timeline:**
+- Alpha release: Q3 2023 (internal testing)
+- Beta release: Q4 2023 (limited user testing)
+- Public launch: Q1 2024
+- Feature updates: Monthly
+- Major releases: Quarterly
+
+## 12. Risk Assessment and Mitigation
+
+**Technical Risks:**
+- Data synchronization issues with multiple users - Implement robust conflict resolution
+- Scalability challenges with complex friend networks - Design efficient database architecture
+- Mobile platform fragmentation - Prioritize standard compliance and testing
+
+**Business Risks:**
+- Low conversion rate - Implement strategic feature gating and clear value demonstration
+- User acquisition challenges - Develop referral systems and strategic partnerships
+- Competition from larger social platforms - Focus on depth and quality of interactions
+
+**User Experience Risks:**
+- Question fatigue - Ensure variety and personalization
+- Imbalanced participation between friends - Design reciprocity mechanics
+- Privacy concerns - Provide transparent controls and education
+
+## 13. Success Metrics
+
+**User Engagement:** 
+- Average of 3+ app sessions per week per user
+- 60%+ of questions receiving responses within 48 hours
+- 70%+ of users progressing beyond Level 1 questions with at least one friend
+
+**Business Metrics:** 
+- 12% conversion rate to premium within first three months
+- Customer acquisition cost (CAC) below $8 per user
+- Annual churn rate below 25% for premium subscribers
+
+**User Satisfaction:** 
+- App store rating above 4.6 stars
+- NPS score above 45
+- Self-reported friendship improvement metrics via surveys
+
+**Friendship Impact:** 
+- Increased frequency of in-person meetings (self-reported)
+- Expansion of conversation topics between friends (measured through category diversity)
+- User testimonials and success stories about deepened connections
